@@ -1,0 +1,156 @@
+/*font-family: 'Libre Franklin', sans-serif;
+font-family: 'Poppins', sans-serif; */
+:root {
+  --branding-color: #388087;
+  --secondary-color: #f9f7fe;
+  --teritiary-color: #6fb3b8;
+  --forth-color: #badfe7;
+  --fifth-color: #c2edce;
+  --text-color: rgb(88, 88, 88);
+  --heading-font-family: "Libre Franklin", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: var(--default-font-family);
+  background: #f6f6f2;
+}
+
+.homepage {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.nav-color {
+  background: #388087;
+}
+
+.itemColor {
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--branding-color);
+}
+
+h3 {
+  font-size: 35px;
+  line-height: 1.5;
+  font-weight: 900;
+  color: var(--teritiary-color);
+}
+
+h5 {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.icon {
+  font-size: 40px;
+  color: var(--branding-color);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--teritiary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+/*
+.homepage p {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  color: #272142;
+  line-height: 1;
+}
+
+.homepage h2 {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.btn-b {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  padding: 15px 35px;
+}
+
+.btn-b2 {
+  color: var(--branding-color);
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+  background: white;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  padding: 15px 35px;
+}
+
+.envolpe-text {
+  padding: 120px 50px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+  .envolpe-text {
+    padding: 0;
+    text-align: center;
+  }
+
+  .homepage {
+    padding: 70px 20px;
+  }
+}*/
